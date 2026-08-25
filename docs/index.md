@@ -62,8 +62,6 @@ What worked? What failed? What would you change if you printed it again? The mos
 That last question is the standard: could someone read your entry, understand your design decisions, and make better ones because of what you documented?
 
 ---
-
-[**View My Resume →**](../resume/Ethan%27s%20Resume.pdf)
-
+[**View My Resume →**](resume/Ethan%27s%20Resume.pdf)
 
 
