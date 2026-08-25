@@ -2,7 +2,7 @@
 
 > **Engineering is the art of making decisions you can defend.**
 ![Ethan King Headshot](images/IMG_4920.jpeg)
-**Welcome to your design portfolio.**
+**Ethan King**
 
 This site is the working record of your design decisions across MEGR 2156. Every entry documents your process — what you designed, how you designed it for the specific technology you were using, and what you learned from building it. Engineering documentation is a skill developed through deliberate practice. Each lab is an opportunity to improve the precision, clarity, and professional quality of how you record your work. As you progress through the semester your design capability will grow alongside your documentation — this portfolio is the record of that journey.
 
