@@ -5,7 +5,8 @@ Find one design rule or guideline specific to Design for Additive Manufacturing.
 
 ## Rounding Endges
 Engineers will do this so they can cut corners for example they can save money and material by rounding off the edges of designs
-\n Source: [Design Rule's](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=921515)
+
+ Source: [Design Rule's](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=921515)
 
 # Individual Research: FDM 2
 ## Objective 
