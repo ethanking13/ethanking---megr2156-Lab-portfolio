@@ -13,6 +13,9 @@ Source: [Design Rule's](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=9
 Find one FDM specific consideration. This could be overhangs, bridging, layer adhesion, warping, supports, or infill strategy. In your own words, write two to three sentences: what it is and how a designer works around it
 
 ## Infill Strategy
-By adding infill supports, This allows objects to experience greater force loads when under stress. It allows the forces to be disturbed evenly among the object and reduces the chance of failure.
+By adding infill supports, This allows objects to have an increased strength. Objects can experience a greater force load when under stress. It allows the forces to be disturbed evenly among the object and it also reduces the chance of object failure.
 
 Source: [Stress field-aware infill toolpath generation](https://www.sciencedirect.com/science/article/pii/S026412752400128X)
+
+## Small Group share out
+I learned that, in Additive manufacturing engineers will...
