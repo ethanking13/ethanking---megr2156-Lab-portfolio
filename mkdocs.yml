@@ -15,13 +15,13 @@ nav:
   - Labs:
       - Lab-1: Labs/L01/index.md
       - Lab-2 Print Something Small: Labs/L02/index.md
-      - Lab-3: Labs/L03/index.md
-      - Lab-4: Labs/L04/index.md
-      - Lab-5: Labs/L05/index.md
-      - Lab-6: Labs/L06/index.md
-      - Lab-7: Labs/L07/index.md
-      - Lab-8: Labs/L08/index.md
-      - Lab-9: Labs/L09/index.md
+      - Lab-3 Design Something Small: Labs/L03/index.md
+      - Lab-4 Benchmark a Parameter: Labs/L04/index.md
+      - Lab-5 Design a Snap Fit: Labs/L05/index.md
+      - Lab-6 Design Fits for a artifact: Labs/L06/index.md
+      - Lab-7 Linkage Mechanisms: Labs/L07/index.md
+      - Lab-8 Design and print something useful: Labs/L08/index.md
+      - Lab-9 Laser Cutter: Labs/L09/index.md
       - Lab-10: Labs/L10/index.md
       - Lab-11: Labs/L11/index.md
   - Final Project: 
