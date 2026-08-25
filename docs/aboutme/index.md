@@ -8,4 +8,4 @@ That same mindset has carried into my engineering projects at UNC Charlotte. Iâ€
 
 Iâ€™m still developing as an engineer, particularly in areas like CAD and design, but that is part of what motivates me. I want to continue building my technical skills while gaining more experience with real engineering problems. My goal is to become an engineer who can take an idea, understand the requirements and limitations, and turn it into something that works.
 
-This portfolio shows some of that progression. **Explore my projects** to see how I approach design and problem-solving.
+This portfolio shows some of that progression. Explore my projects to see how I approach design and problem-solving, [**view my resume**](../resume/Ethan%27s%20Resume.pdf) to see my experience and technical skills, or get in touch if you would like to connect.
