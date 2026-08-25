@@ -14,7 +14,7 @@ nav:
   - About Me: aboutme/index.md
   - Labs:
       - Lab-1: Labs/L01/index.md
-      - Lab-2: Labs/L02/index.md
+      - Lab-2 Print Something Small: Labs/L02/index.md
       - Lab-3: Labs/L03/index.md
       - Lab-4: Labs/L04/index.md
       - Lab-5: Labs/L05/index.md
