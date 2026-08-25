@@ -63,7 +63,7 @@ That last question is the standard: could someone read your entry, understand yo
 
 ---
 
-[**View My Resume →**](../Ethan_King_Resume.pdf)
+[**View My Resume →**](../resume/Ethan%27s%20Resume.pdf)
 
 
 
