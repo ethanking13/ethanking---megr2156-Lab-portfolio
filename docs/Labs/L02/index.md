@@ -43,7 +43,7 @@ Clicked "Slice Now" and used the defaulted slicer settings.
 
 ## Print Process
 
-My group and I printed in PLA, which is a very beginner friendly material. We used the assigned flash-drive to offload our files to the printer (PC-17). After starting the process the first thing the printer did was "heat" the bed which can be see below
+My group (Ethan K, Andrew Y, Andy C) printed in PLA, which is a very beginner friendly material. We used the assigned flash-drive to offload our files to the printer (PC-17). After starting the process the first thing the printer did was "heat" the bed which can be see below
 
 ![](../../images/IMG_6478.jpeg)
 
@@ -60,3 +60,8 @@ Here is the printer showing that our prints are completely done!
 
 Final imagine of complete prints.
 ![](../../images/IMG_7740.jpeg)
+
+![](../../images/IMG_6479.jpeg)
+
+## Lesson Learned
+Throughout the process, I learned that sometimes scaling down an object can actually hurt the print. I also learned that infill and supports aren't always necessary for a successful print. Another thing I learned was that some objects can be printed very quickly, even when printing multiple objects in a single print process. Finally, I learned that choosing a better object that fits the project requirements is important to make sure the print is successful. The entire process took about 1 hour from downloading the object to completing the print.
