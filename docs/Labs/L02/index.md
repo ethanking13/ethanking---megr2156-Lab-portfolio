@@ -54,3 +54,7 @@ We then came back a few minutes later to see that the printer had begun its prin
 We checked back in and was able to capture a video of the printer making me and my group's items! 
 <a href="../../images/IMG_7732.mp4" target="_blank">HERE</a>
 
+<video controls width="700">
+    <source src="../../images/IMG_7732.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
