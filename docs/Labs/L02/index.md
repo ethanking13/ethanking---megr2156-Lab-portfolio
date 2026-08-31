@@ -21,13 +21,13 @@ Source: [Stress field-aware infill toolpath generation](https://www.sciencedirec
 I learned that, in Additive manufacturing engineers will recycle materials to reduce waste and promote efficent material use. I also learned that engineers will include tolerances because when objects heat or cool down the accuracy can change so by adding tolerances they can account for thermal expansion or cooling
 
 
-## Printed Product
+## Product Analysis
 Downloaded from: (https://www.printables.com/model/1798894-bag-clip-shark-with-lock-print-in-place)
 
-I chose this object because it fit the assignment requirements, and also I found the mechanicsm interesting to be able to "clip" things shut.
+I chose this object because it fit the assignment requirements, and also I found the mechanism interesting to be able to "clip" things shut.
 ![](../../images/Screenshot%202026-08-31%20183127.png)
 
-Here is the original dimensions of the downloaded stl file. To fit the assignment requirements of being 2 x 2 x .25 I had to change the x variable and PrusaSlicer automatically adjusted everything else.
+Here is the original dimensions of the downloaded stl file. To fit the assignment requirements of being 2 x 2 x .25 I had to change the x variable to 2 and PrusaSlicer automatically adjusted everything else which still kept me in the required dimensions.
 
 ![](../../images/Screenshot%202026-08-31%20184024.png)
 
@@ -40,3 +40,9 @@ Clicked "Slice Now" and used the defaulted slicer settings.
 
 ![](../../images/Screenshot%202026-08-31%20185328.png)
 ![](../../images/Screenshot%202026-08-31%20185344.png)
+
+## Print Process
+
+My group and I printed in PLA, which is a very beginner friendly material. We used the assigned flash-drive to offload our files to the printer. After starting the process the first thing the printer did was "heat" the bed which can be see below
+
+![](../../images/IMG_6478.jpeg)
