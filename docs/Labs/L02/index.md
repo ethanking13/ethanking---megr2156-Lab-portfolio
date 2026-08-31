@@ -24,5 +24,8 @@ I learned that, in Additive manufacturing engineers will recycle materials to re
 ## Printed Product
 Downloaded from: (https://www.printables.com/model/1798894-bag-clip-shark-with-lock-print-in-place)
 
-I chose this object because it fit the assignment requirements, and also I found the mechanicsm intering to be able to "clip" things shut.
-![Bag Clip Shark](../../images/Screenshot%202026-08-31%20183127.png)
+I chose this object because it fit the assignment requirements, and also I found the mechanicsm interesting to be able to "clip" things shut.
+![](../../images/Screenshot%202026-08-31%20183127.png)
+
+Here is the original dimensions of the downloaded stl file. To fit the assignment requirements of being .25 x .25 x .10 I had to change the x variable and PrusaSlicer automatically adjusted everything else.
+
