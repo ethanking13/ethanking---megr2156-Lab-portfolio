@@ -19,3 +19,8 @@ Source: [Stress field-aware infill toolpath generation](https://www.sciencedirec
 
 ## Small Group share out
 I learned that, in Additive manufacturing engineers will recycle materials to reduce waste and promote efficent material use. I also learned that engineers will include tolerances because when objects heat or cool down the accuracy can change so by adding tolerances they can account for thermal expansion or cooling
+
+
+## Printed Product
+Downloaded from Source: (https://www.printables.com/model/1798894-bag-clip-shark-with-lock-print-in-place)
+
