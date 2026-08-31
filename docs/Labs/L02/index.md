@@ -22,5 +22,6 @@ I learned that, in Additive manufacturing engineers will recycle materials to re
 
 
 ## Printed Product
-Downloaded from Source: (https://www.printables.com/model/1798894-bag-clip-shark-with-lock-print-in-place)
+Downloaded from: (https://www.printables.com/model/1798894-bag-clip-shark-with-lock-print-in-place)
 
+I chose this object because it fit the assignment requirements, and also I found the mechanicsm intering to be able to "clip" things shut.
