@@ -27,8 +27,11 @@ Downloaded from: (https://www.printables.com/model/1798894-bag-clip-shark-with-l
 I chose this object because it fit the assignment requirements, and also I found the mechanicsm interesting to be able to "clip" things shut.
 ![](../../images/Screenshot%202026-08-31%20183127.png)
 
-Here is the original dimensions of the downloaded stl file. To fit the assignment requirements of being .25 x .25 x .10 I had to change the x variable and PrusaSlicer automatically adjusted everything else.
+Here is the original dimensions of the downloaded stl file. To fit the assignment requirements of being 2 x 2 x .25 I had to change the x variable and PrusaSlicer automatically adjusted everything else.
 
 ![](../../images/Screenshot%202026-08-31%20184024.png)
 
 ![](../../images/Screenshot%202026-08-31%20184038.png)
+
+Updated Dimensions to fit the assignment requirements and image of smaller clip.
+![](../../images/Screenshot%202026-08-27%20133440.png)
