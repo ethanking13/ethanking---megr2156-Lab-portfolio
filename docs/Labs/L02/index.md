@@ -51,5 +51,6 @@ We then came back a few minutes later to see that the printer had begun its prin
 
 ![](../../images/IMG_7730.jpeg)
 
-We checked back in and was able to capture a video of the printer making me and my groups items. ![HERE](../../videos/IMG_7732.mp4)
+We checked back in and was able to capture a video of the printer making me and my group's items! 
+<a href="../../videos/IMG_7732.mp4" target="_blank">HERE</a>
 
