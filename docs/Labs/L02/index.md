@@ -43,6 +43,13 @@ Clicked "Slice Now" and used the defaulted slicer settings.
 
 ## Print Process
 
-My group and I printed in PLA, which is a very beginner friendly material. We used the assigned flash-drive to offload our files to the printer. After starting the process the first thing the printer did was "heat" the bed which can be see below
+My group and I printed in PLA, which is a very beginner friendly material. We used the assigned flash-drive to offload our files to the printer (PC-17). After starting the process the first thing the printer did was "heat" the bed which can be see below
 
 ![](../../images/IMG_6478.jpeg)
+
+We then came back a few minutes later to see that the printer had begun its print and was 7% of the way through
+
+![](../../images/IMG_7730.jpeg)
+
+We checked back in and was able to capture a video of the printer making me and my groups items. ![HERE](../../videos/IMG_7732.mp4)
+
