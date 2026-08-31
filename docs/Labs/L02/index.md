@@ -30,4 +30,4 @@ I chose this object because it fit the assignment requirements, and also I found
 Here is the original dimensions of the downloaded stl file. To fit the assignment requirements of being .25 x .25 x .10 I had to change the x variable and PrusaSlicer automatically adjusted everything else.
 
 ![](../../images/Screenshot%202026-08-31%20184024.png)
-
+![](../../images/Screenshot%202026-08-31%20184038.png)
