@@ -37,5 +37,6 @@ Updated Dimensions to fit the assignment requirements and image of smaller clip.
 ![](../../images/Screenshot%202026-08-27%20133440.png)
 
 Clicked "Slice Now" and used the defaulted slicer settings.
+
 ![](../../images/Screenshot%202026-08-31%20185328.png)
 ![](../../images/Screenshot%202026-08-31%20185344.png)
