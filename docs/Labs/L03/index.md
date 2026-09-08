@@ -67,6 +67,10 @@ And in this video is a picture of the Prusa printing me and my groups assignment
 
 
 
+<a href="../../images/IMG_6525.mov" target="_blank">HERE</a>
+
+
+
 
 # Completed Print
 <img width="3024" height="4032" alt="IMG_6529" src="https://github.com/user-attachments/assets/bd6587cf-cbc0-459a-b8a5-84f6aa2865d2" />
