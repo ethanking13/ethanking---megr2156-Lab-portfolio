@@ -59,9 +59,14 @@ Final Model with correct orientation.
 Below is a photo of the Prusa Printer starting to heat up 
 <img width="4284" height="5712" alt="IMG_6524" src="https://github.com/user-attachments/assets/ecdca149-8fed-4fea-b982-db81e56a7b9f" />
 
-And in this photo is a picture of the Prusa printing me and my groups assignments, Unfortunately I am unable to upload a video due to GitHub only allowing a 10mb or less video file and even after cropping my video to 1 second I was still unable to upload one.
+And in this video is a picture of the Prusa printing me and my groups assignments,
 
-<img width="603" height="1311" alt="IMG_6550" src="https://github.com/user-attachments/assets/c06853cb-9b25-4a02-ab3d-e366fff3b5f4" />
+<video controls width="600">
+    <source src="images/IMG_6525.mov" type="video/quicktime">
+</video>
+
+
+
 
 # Completed Print
 <img width="3024" height="4032" alt="IMG_6529" src="https://github.com/user-attachments/assets/bd6587cf-cbc0-459a-b8a5-84f6aa2865d2" />
