@@ -31,7 +31,7 @@ Cubic infill uses paths that cross within each layer to create three-dimensional
 
 # Grid Infill
 
-Grid infill is one of the simplest and fastest infill patterns, with lines printed in two directions to create a grid. It is more solid than rectilinear infill and provides better layer adhesion, but the accumulated material at the crossings can sometimes cause printing issues.
+Grid infill is one of the simplest and fastest infill patterns, with lines printed in two directions to create a grid. It is more solid than rectangular infill and provides better layer adhesion, but the accumulated material at the crossings can sometimes cause printing issues.
 
 # Effect of Infill Percentage
 
