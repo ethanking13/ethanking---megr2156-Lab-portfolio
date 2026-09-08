@@ -1,13 +1,16 @@
-# A3 – [Topic]
+# A3 – [Design Something Small]
 
-## Objective
-
-
-## Analyze
+## Design
 
 
-## Decide
+## Research
 
 
-## Communicate
+## Preprocessor and Printing
 
+
+## Print
+
+## Lessons Learned
+
+## Resources
