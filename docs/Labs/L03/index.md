@@ -61,7 +61,7 @@ Below is a photo of the Prusa Printer starting to heat up
 
 And in this video is a picture of the Prusa printing me and my groups assignments,
 
-<a href="../../images/IMG_6527%20(1).mov" target="_blank">HERE</a>
+<a href="../../images/IMG_6525.mp4" target="_blank">HERE</a>
 
 # Completed Print
 <img width="3024" height="4032" alt="IMG_6529" src="https://github.com/user-attachments/assets/bd6587cf-cbc0-459a-b8a5-84f6aa2865d2" />
