@@ -61,15 +61,9 @@ Below is a photo of the Prusa Printer starting to heat up
 
 And in this video is a picture of the Prusa printing me and my groups assignments,
 
-<video controls width="600">
-    <source src="images/IMG_6525.mov" type="video/quicktime">
-</video>
-
-
-
 <a href="../../images/IMG_6525%20(1).mov" target="_blank">HERE</a>
 
-
+<a href="../images/IMG_6525%20(1).mov" target="_blank">HERE</a>
 
 
 # Completed Print
