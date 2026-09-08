@@ -67,7 +67,7 @@ And in this video is a picture of the Prusa printing me and my groups assignment
 
 
 
-<a href="../../images/IMG_6525.mov" target="_blank">HERE</a>
+<a href="../../images/IMG_6525%20(1).mov" target="_blank">HERE</a>
 
 
 
