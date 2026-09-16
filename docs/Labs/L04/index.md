@@ -1,332 +1,353 @@
-# A4 – [Benchmark a Parameter]
+# Prusa Core One Tolerance Gauge Benchmark
 
-## 1. Introduction
+**Name:** Ethan King  
+**Course:** [Course Name]  
+**Date:** [Date]
 
-### Purpose
+## Analyze — Parameter Selection
 
-[Briefly explain the purpose of the project and what you were trying to determine.]
+### Parameter Tested: Tolerance
 
-### Parameter Tested
+The parameter selected for this project was **dimensional tolerance**, specifically the ability of the Prusa Core One to produce small internal holes.
 
-**Parameter:** [Tolerance / Overhang / Pull Strength / Dimension Calibration]
+To test this parameter, I designed a small square artifact containing a series of progressively smaller holes. The hole diameters ranged from **1.0 mm to 0.09 mm**.
 
-[Explain what parameter you chose to test and why it is important when designing or manufacturing with an FDM printer.]
+The holes used in the test were:
 
----
+- 1.0 mm
+- 0.6 mm
+- 0.5 mm
+- 0.4 mm
+- 0.3 mm
+- 0.2 mm
+- 0.1 mm
+- 0.09 mm
 
-## 2. Artifact Design
+The purpose of using progressively smaller holes was to determine the smallest hole that the Prusa Core One could successfully reproduce.
 
-### 2.1 Design Overview
+**[INSERT IMAGE OF FINAL CAD MODEL]**
 
-[Describe the artifact you designed. Explain its general shape, features, and what it was designed to test.]
+**Figure 1.** Final CAD model of the tolerance gauge.
 
-![Figure 1](images/figure1.png)
+## Artifact Design
 
-**Figure 1.** Overview of the designed benchmark artifact.
+### CAD Design
 
-### 2.2 CAD Software
+The benchmark artifact was designed using **Creo Parametric**. The artifact consisted of a small square with multiple circular holes placed through the part. Each hole was progressively smaller than the previous hole.
 
-**Software Used:** [Creo Parametric]
+The design was intentionally simple so that the test would focus primarily on the printer's ability to reproduce small holes rather than testing other characteristics such as overhangs or structural strength.
 
-[Describe how the artifact was created in CAD.]
+**[INSERT IMAGE OF CAD DESIGN PROCESS]**
 
-![Figure 2](images/figure2.png)
+**Figure 2.** Development of the tolerance gauge in Creo Parametric.
 
-**Figure 2.** CAD model during the design process.
+### Hole Dimensions
 
-### 2.3 Design Features
+The hole diameters were designed to decrease from 1.0 mm to 0.09 mm. This provided a range of increasingly difficult features for the printer to reproduce.
 
-[Describe the important dimensions or features included in the artifact.]
+| Hole | Diameter |
+|---|---:|
+| 1 | 1.0 mm |
+| 2 | 0.6 mm |
+| 3 | 0.5 mm |
+| 4 | 0.4 mm |
+| 5 | 0.3 mm |
+| 6 | 0.2 mm |
+| 7 | 0.1 mm |
+| 8 | 0.09 mm |
 
-[Explain why these features were chosen for the test.]
+**[INSERT IMAGE SHOWING HOLE DIMENSIONS IN CREO]**
 
-![Figure 3](images/figure3.png)
+**Figure 3.** Hole dimensions used in the tolerance gauge.
 
-**Figure 3.** Final CAD model showing the test features.
+## Preprocessor — Predicted Result
 
----
+Before printing the artifact, I predicted that the Prusa Core One would not be able to successfully produce the **0.1 mm hole**.
 
-## 3. Predicted Result
+The prediction was based on the small size of the feature compared with the printer's **0.4 mm nozzle diameter**. I expected the larger holes to print successfully and the smaller holes to become increasingly difficult for the printer to reproduce.
 
-### 3.1 Prediction
+I expected the **0.09 mm hole** to also be unsuccessful because it was even smaller than the predicted 0.1 mm limit.
 
-[State what you expected to happen before printing.]
+**Predicted smallest successful hole:** 0.2 mm
 
-**Predicted Limit:** [Insert predicted value]
+**Predicted unsuccessful holes:** 0.1 mm and 0.09 mm
 
-[Explain why you expected this result.]
+## PrusaSlicer Build Parameters
 
----
-
-## 4. PrusaSlicer Setup
-
-### 4.1 Print Settings
+### Print Settings
 
 | Setting | Value |
 |---|---|
 | Printer | Prusa Core One |
-| Material | [ ] |
-| Nozzle Diameter | [ ] |
-| Layer Height | [ ] |
-| Infill | [ ] |
-| Infill Pattern | [ ] |
-| Build Orientation | [ ] |
-| Supports | [ ] |
-| Scale | [ ] |
-| Print Time | [ ] |
+| Material | PLA |
+| Nozzle Diameter | 0.4 mm |
+| Infill | 15% |
+| Infill Pattern | Default |
+| Build Orientation | Flat on build plate |
+| Supports | None |
+| Scale | Scaled down |
+| Layer Height | [INSERT ACTUAL VALUE] |
+| Estimated Print Time | [INSERT ACTUAL VALUE] |
 
-![Figure 4](images/figure4.png)
+**[INSERT IMAGE OF PRUSASLICER SETTINGS]**
 
-**Figure 4.** PrusaSlicer settings used for the benchmark artifact.
+**Figure 4.** PrusaSlicer settings used for the tolerance gauge.
 
----
+## Build Parameter Decisions
 
-## 5. Build Parameter Decisions
+### Infill
 
-### 5.1 Infill
+The artifact was printed using **15% infill**. The default infill pattern was not changed.
 
-[State the infill percentage and pattern.]
+The 15% infill was selected because the purpose of the artifact was to test **dimensional tolerance and small-hole reproduction**, not the structural strength of the part. A moderate amount of infill provided internal structure without adding unnecessary material or print time.
 
-[Explain why this infill was selected and how it relates to the parameter being tested.]
+The infill was not increased because additional infill was not necessary for the tolerance test.
 
-### 5.2 Build Orientation
+### Build Orientation
 
-[Explain how the artifact was positioned on the build plate.]
+The artifact was positioned **flat on the build plate**.
 
-[Explain why this orientation was selected.]
+This orientation was selected because the purpose of the test was to evaluate **tolerance and small-hole reproduction**, rather than the overhang capabilities of the Prusa Core One.
 
-![Figure 5](images/figure5.png)
+Keeping the artifact flat also provided a simple and consistent orientation for the test. This reduced the number of variables involved and allowed the experiment to focus on the size of the holes.
 
-**Figure 5.** Build orientation in PrusaSlicer.
+**[INSERT IMAGE OF BUILD ORIENTATION IN PRUSASLICER]**
 
-### 5.3 Supports
+**Figure 5.** Tolerance gauge positioned flat on the build plate.
 
-[State whether supports were used.]
+### Supports
 
-[If supports were used, explain where and why. If not, explain why they were unnecessary.]
+**Supports were not used.**
 
-### 5.4 Scale
+The geometry of the tolerance gauge did not require supports because the artifact was printed flat on the build plate. Avoiding supports also prevented support material from interfering with the holes being tested.
 
-[State whether the model was scaled.]
+This helped keep the test focused on the printer's ability to reproduce the intended hole sizes.
 
-[Explain why the model was or was not scaled and how the scale was selected.]
+### Scale
 
-### 5.5 Other Settings
+The model was **scaled down** before printing because the original dimensions created in Creo Parametric were too large for the intended tolerance test.
 
-[Describe any other important PrusaSlicer settings that affected the test.]
+Scaling the model down made the artifact smaller and more practical for the test while maintaining the progressively smaller holes required for the experiment.
 
----
+**[INSERT IMAGE OF SCALE SETTING]**
 
-## 6. Slice Information
+**Figure 6.** Scale adjustment applied to the tolerance gauge in PrusaSlicer.
 
-![Figure 6](images/figure6.png)
+### Other Build Parameters
 
-**Figure 6.** Sliced benchmark artifact in PrusaSlicer.
+[Add any other important PrusaSlicer settings or parameters used during the print.]
 
-### Slice Information
+## Slice Information
 
-- **Estimated Print Time:** [ ]
-- **Filament Used:** [ ]
-- **Number of Layers:** [ ]
-- **Layer Height:** [ ]
-- **Infill:** [ ]
-- **Nozzle:** [ ]
+**[INSERT IMAGE OF PRUSASLICER SLICE PREVIEW]**
 
-[Explain anything important noticed in the slicer preview.]
+**Figure 7.** Sliced tolerance gauge in PrusaSlicer.
 
----
+The important slicing information for the print was:
 
-## 7. Design Process
+- **Printer:** Prusa Core One
+- **Material:** PLA
+- **Nozzle:** 0.4 mm
+- **Infill:** 15%
+- **Supports:** None
+- **Build Orientation:** Flat on build plate
+- **Scale:** Reduced from the original CAD size
+- **Layer Height:** [INSERT VALUE]
+- **Estimated Print Time:** [INSERT VALUE]
+- **Filament Used:** [INSERT VALUE]
+- **Number of Layers:** [INSERT VALUE]
 
-### Step 1 — Initial Concept
+## Design Process
 
-[Describe your original idea.]
+### Initial Design
 
-![Figure 7](images/figure7.png)
+The initial concept was to create a simple tolerance gauge that could test the printer's ability to reproduce progressively smaller holes.
 
-**Figure 7.** Initial concept.
+**[INSERT IMAGE]**
 
-### Step 2 — CAD Development
+**Figure 8.** Initial tolerance gauge concept.
 
-[Describe how you developed the model.]
+### CAD Development
 
-![Figure 8](images/figure8.png)
+The artifact was developed in Creo Parametric by creating a small square and adding circular holes with decreasing diameters.
 
-**Figure 8.** CAD development.
+**[INSERT IMAGE]**
 
-### Step 3 — Final Model
+**Figure 9.** CAD development of the tolerance gauge.
 
-[Describe the completed CAD model.]
+### Final CAD Model
 
-![Figure 9](images/figure9.png)
+The final model contained eight holes ranging from **1.0 mm to 0.09 mm**.
 
-**Figure 9.** Final CAD model.
+**[INSERT IMAGE]**
 
-### Step 4 — Slicing
+**Figure 10.** Final CAD model before slicing.
 
-[Describe the process of preparing the model in PrusaSlicer.]
+### Slicing
 
-![Figure 10](images/figure10.png)
+The completed model was imported into PrusaSlicer. The model was scaled down, positioned flat on the build plate, and prepared for printing using PLA, 15% infill, and a 0.4 mm nozzle.
 
-**Figure 10.** Final sliced model.
+**[INSERT IMAGE]**
 
-### Step 5 — Printing
+**Figure 11.** Tolerance gauge prepared for printing in PrusaSlicer.
 
-[Describe the printing process.]
+### Printing
 
-![Figure 11](images/figure11.png)
+The final artifact was printed on the Prusa Core One using the selected build parameters.
 
-**Figure 11.** Benchmark artifact during printing.
+**[INSERT IMAGE]**
 
----
+**Figure 12.** Tolerance gauge during the printing process.
 
-## 8. Mistakes and Changes
+## Mistakes and Design Changes
 
-### Mistake/Change 1
+One change made during the process was scaling the model down. The original dimensions created in Creo Parametric were too large for the intended test, so the model was scaled down before printing.
 
-**What happened:**  
-[ ]
+**Problem:** The original CAD dimensions were too large.
 
-**Cause:**  
-[ ]
+**Solution:** The model was scaled down in PrusaSlicer.
 
-**How it was corrected:**  
-[ ]
+**Reason:** Scaling the model down created a more practical-sized artifact while maintaining the progressively smaller holes needed for the tolerance test.
 
-**Effect on the test:**  
-[ ]
+**Effect:** The smaller artifact allowed the intended tolerance test to be performed.
 
-### Mistake/Change 2
+[Add any additional mistakes or changes that occurred during the project.]
 
-**What happened:**  
-[ ]
+## Print Artifact
 
-**Cause:**  
-[ ]
+### Final Printed Artifact
 
-**How it was corrected:**  
-[ ]
+**[INSERT IMAGE OF FINAL PRINT]**
 
-**Effect on the test:**  
-[ ]
+**Figure 13.** Final printed tolerance gauge.
 
----
+The final artifact was a small square containing eight progressively smaller holes. The printed artifact was used to determine the smallest hole that the Prusa Core One could successfully reproduce.
 
-## 9. Print Artifact
+## Print Video
 
-### 9.1 Final Artifact
+**[EMBED PRINT VIDEO HERE]**
 
-![Figure 12](images/figure12.png)
+**Figure 14.** Video of the tolerance gauge being printed on the Prusa Core One.
 
-**Figure 12.** Final printed benchmark artifact.
+## Results
 
-### 9.2 What Was Tested
+### Hole Test Results
 
-[Explain what the printed artifact was testing and how the test was performed.]
+Each hole was inspected to determine whether the printer successfully reproduced the intended opening.
 
-### 9.3 Measurements/Observations
+| Designed Hole Diameter | Successfully Printed |
+|---:|:---:|
+| 1.0 mm | Yes |
+| 0.6 mm | Yes |
+| 0.5 mm | Yes |
+| 0.4 mm | Yes |
+| 0.3 mm | Yes |
+| 0.2 mm | Yes |
+| 0.1 mm | No |
+| 0.09 mm | No |
 
-| Test Feature | Designed Value | Actual Result | Observation |
-|---|---:|---:|---|
-| Feature 1 | [ ] | [ ] | [ ] |
-| Feature 2 | [ ] | [ ] | [ ] |
-| Feature 3 | [ ] | [ ] | [ ] |
-| Feature 4 | [ ] | [ ] | [ ] |
-| Feature 5 | [ ] | [ ] | [ ] |
+**[INSERT IMAGE OF FINAL HOLES]**
 
-![Figure 13](images/figure13.png)
+**Figure 15.** Close-up view of the progressively smaller holes in the printed artifact.
 
-**Figure 13.** Measurements and observations from the printed artifact.
+### Actual Result
 
----
+The Prusa Core One successfully reproduced holes from **1.0 mm down to 0.2 mm**.
 
-## 10. Print Video
+The **0.1 mm and 0.09 mm holes were not successfully produced**.
 
-[Click here to view the print video](images/print-video.mp4)
+Therefore, the smallest successfully reproduced hole in this test was:
 
----
+**0.2 mm**
 
-## 11. Results
+The smallest unsuccessful hole was:
 
-### 11.1 Actual Result
+**0.1 mm**
 
-[Describe the overall result of the test.]
-
-**Actual Limit:** [ ]
-
-[Explain which features successfully printed and which did not.]
-
-### 11.2 Predicted vs. Actual
+## Predicted vs. Actual Result
 
 | | Result |
 |---|---:|
-| Predicted Result | [ ] |
-| Actual Result | [ ] |
-| Difference | [ ] |
+| Predicted Limit | 0.1 mm |
+| Smallest Successful Hole | 0.2 mm |
+| Smallest Unsuccessful Hole | 0.1 mm |
 
-[Explain whether the actual result was different from your prediction and why.]
+The actual result was consistent with the prediction. Before printing, I predicted that the 0.1 mm hole would not successfully print. After printing the artifact, the 0.1 mm hole was not successfully produced, while the 0.2 mm hole was successfully produced.
 
----
+The results established a practical tested limit of approximately **0.2 mm for the smallest successful hole** in this particular test.
 
-## 12. Comparison to Class Design Rules
+## Comparison to Class Design Rules
 
-[Identify the relevant FDM design rule from the class chart.]
+The class design rules chart will be used to compare the measured result from this experiment to the expected FDM specification.
 
-| | Value |
+| Measurement | Value |
 |---|---:|
-| Class FDM Design Rule | [ ] |
-| Predicted Result | [ ] |
-| Actual Result | [ ] |
+| Class FDM Design Rule | [INSERT VALUE] |
+| Predicted Result | 0.1 mm |
+| Actual Smallest Successful Hole | 0.2 mm |
 
-[Explain whether your result matched, exceeded, or fell short of the documented specification.]
+**[INSERT IMAGE OF CLASS FDM DESIGN RULES CHART]**
 
-[Discuss possible reasons for the difference.]
+**Figure 16.** Relevant FDM design rule from the class design rules chart.
 
----
+[Explain whether the measured result matched, exceeded, or fell short of the class specification.]
 
-## 13. Lessons Learned
+[Explain possible reasons for any difference between the experiment and the class design rule.]
 
-### Lesson 1 — [Topic]
+Possible factors include:
 
-[Explain what you learned.]
+- 0.4 mm nozzle diameter
+- Layer height
+- PLA material
+- Print orientation
+- Model scaling
+- Printer settings
+- Hole geometry
+- Measurement or inspection method
 
-### Lesson 2 — [Topic]
+## Lessons Learned
 
-[Explain what you learned.]
+### Small Features Have Practical Limits
 
-### Lesson 3 — [Topic]
+The test demonstrated that FDM printing has practical limits when producing extremely small internal features. Although the Prusa Core One successfully reproduced the 0.2 mm hole, it was unable to reproduce the 0.1 mm and 0.09 mm holes.
 
-[Explain what you learned.]
+### Nozzle Size Affects Feature Reproduction
 
-### Lesson 4 — [Topic]
+The printer used a **0.4 mm nozzle**, which is an important consideration when designing small features. The test showed that the printer can reproduce features smaller than the nozzle diameter, but there is still a point where the geometry becomes too small to reproduce successfully.
 
-[Explain what you learned.]
+### Orientation Should Match the Test
 
----
+Printing the artifact flat on the build plate helped keep the test focused on tolerance instead of overhang performance. This showed the importance of selecting an orientation based on the specific parameter being tested.
 
-## 14. What I Would Change
+### CAD Design Must Consider Manufacturing
 
-### Change 1
+The original CAD model was too large for the intended test, so it had to be scaled down before printing. This demonstrated that the dimensions and overall size of a CAD model should be considered based on the manufacturing process and the purpose of the test.
 
-[Describe something you would change and explain why.]
+### Predictions Help Evaluate Results
 
-### Change 2
+The prediction made before printing provided a reference for evaluating the final result. The prediction that the 0.1 mm hole would not print successfully was supported by the actual results.
 
-[Describe another change and explain why.]
+## What I Would Change
 
-### Change 3
+### Add More Sizes Near the Limit
 
-[Describe another change and explain why.]
+If I repeated the experiment, I would add more hole sizes between 0.1 mm and 0.2 mm. This would provide more information about the exact point where the printer stops successfully reproducing the holes.
 
-### Change 4
+### Take Actual Measurements
 
-[Describe another change and explain why.]
+I would use a more precise measurement method to measure the actual diameter of the printed holes rather than only recording whether the hole was open or closed. This would provide quantitative data that could be directly compared to the CAD dimensions.
 
----
+### Print Multiple Samples
 
-## 15. Project Time
+I would print the tolerance gauge multiple times to determine whether the results were consistent between prints.
 
-The total time required to complete the project was approximately **4 hours**.
+### Test Different Print Settings
+
+I would test different layer heights or other PrusaSlicer settings to determine whether the printer could reproduce smaller holes under different conditions.
+
+## Project Time
+
+The total time required to complete the project from start to finish was approximately **4 hours**.
 
 | Activity | Time |
 |---|---:|
@@ -337,12 +358,14 @@ The total time required to complete the project was approximately **4 hours**.
 | Printing | [ ] |
 | Testing | [ ] |
 | Documentation | [ ] |
-| **Total** | **Approximately 4 hours** |
+| **Total Project Time** | **Approximately 4 hours** |
 
----
+## Conclusion
 
-## 16. Conclusion
+The purpose of this project was to characterize the dimensional tolerance of the Prusa Core One by testing its ability to reproduce progressively smaller holes.
 
-[Summarize the project, the parameter tested, the predicted result, the actual result, and the main lessons learned.]
+A custom tolerance gauge was designed in Creo Parametric and contained holes ranging from **1.0 mm to 0.09 mm**. The artifact was printed using PLA, a 0.4 mm nozzle, 15% infill, no supports, and a flat build orientation.
 
-[Briefly explain what the results show about the Prusa Core One and how the results compare to the expected FDM design guidelines.]
+Before printing, I predicted that the **0.1 mm hole would not successfully print**. The actual results supported this prediction. The printer successfully reproduced holes down to **0.2 mm**, while the 0.1 mm and 0.09 mm holes were unsuccessful.
+
+The experiment demonstrated the importance of considering nozzle diameter, feature size, print orientation, scaling, and other manufacturing parameters when designing parts for FDM printing. The results can also be compared to the class FDM design rules to determine how the tested performance compares with the documented specification.
