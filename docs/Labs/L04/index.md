@@ -22,9 +22,16 @@ The holes used in the test were:
 
 The purpose of using progressively smaller holes was to determine the smallest hole that the Prusa Core One could successfully reproduce.
 
-**[INSERT IMAGE OF FINAL CAD MODEL]**
+
+<img width="851" height="717" alt="Screenshot 2026-09-15 203951" src="https://github.com/user-attachments/assets/ed86fe35-64d3-4397-982a-4d46fbeb79aa" />
+
 
 **Figure 1.** Final CAD model of the tolerance gauge.
+
+<img width="333" height="240" alt="Screenshot 2026-09-15 203957" src="https://github.com/user-attachments/assets/46b0fe33-0f7f-4d88-94e2-190ac6729d00" />
+
+**Figure 2.** Final CAD model of the tolerance gauge.
+
 
 ## Artifact Design
 
@@ -36,7 +43,7 @@ The design was intentionally simple so that the test would focus primarily on th
 
 **[INSERT IMAGE OF CAD DESIGN PROCESS]**
 
-**Figure 2.** Development of the tolerance gauge in Creo Parametric.
+**Figure 3.** Development of the tolerance gauge in Creo Parametric.
 
 ### Hole Dimensions
 
@@ -55,7 +62,7 @@ The hole diameters were designed to decrease from 1.0 mm to 0.09 mm. This provid
 
 **[INSERT IMAGE SHOWING HOLE DIMENSIONS IN CREO]**
 
-**Figure 3.** Hole dimensions used in the tolerance gauge.
+**Figure .** Hole dimensions used in the tolerance gauge.
 
 ## Preprocessor — Predicted Result
 
@@ -88,7 +95,7 @@ I expected the **0.09 mm hole** to also be unsuccessful because it was even smal
 
 **[INSERT IMAGE OF PRUSASLICER SETTINGS]**
 
-**Figure 4.** PrusaSlicer settings used for the tolerance gauge.
+**Figure .** PrusaSlicer settings used for the tolerance gauge.
 
 ## Build Parameter Decisions
 
@@ -110,7 +117,7 @@ Keeping the artifact flat also provided a simple and consistent orientation for 
 
 **[INSERT IMAGE OF BUILD ORIENTATION IN PRUSASLICER]**
 
-**Figure 5.** Tolerance gauge positioned flat on the build plate.
+**Figure .** Tolerance gauge positioned flat on the build plate.
 
 ### Supports
 
@@ -128,7 +135,7 @@ Scaling the model down made the artifact smaller and more practical for the test
 
 **[INSERT IMAGE OF SCALE SETTING]**
 
-**Figure 6.** Scale adjustment applied to the tolerance gauge in PrusaSlicer.
+**Figure .** Scale adjustment applied to the tolerance gauge in PrusaSlicer.
 
 ### Other Build Parameters
 
@@ -138,7 +145,7 @@ Scaling the model down made the artifact smaller and more practical for the test
 
 **[INSERT IMAGE OF PRUSASLICER SLICE PREVIEW]**
 
-**Figure 7.** Sliced tolerance gauge in PrusaSlicer.
+**Figure .** Sliced tolerance gauge in PrusaSlicer.
 
 The important slicing information for the print was:
 
@@ -162,7 +169,7 @@ The initial concept was to create a simple tolerance gauge that could test the p
 
 **[INSERT IMAGE]**
 
-**Figure 8.** Initial tolerance gauge concept.
+**Figure .** Initial tolerance gauge concept.
 
 ### CAD Development
 
@@ -170,7 +177,7 @@ The artifact was developed in Creo Parametric by creating a small square and add
 
 **[INSERT IMAGE]**
 
-**Figure 9.** CAD development of the tolerance gauge.
+**Figure .** CAD development of the tolerance gauge.
 
 ### Final CAD Model
 
@@ -178,7 +185,7 @@ The final model contained eight holes ranging from **1.0 mm to 0.09 mm**.
 
 **[INSERT IMAGE]**
 
-**Figure 10.** Final CAD model before slicing.
+**Figure .** Final CAD model before slicing.
 
 ### Slicing
 
@@ -186,7 +193,7 @@ The completed model was imported into PrusaSlicer. The model was scaled down, po
 
 **[INSERT IMAGE]**
 
-**Figure 11.** Tolerance gauge prepared for printing in PrusaSlicer.
+**Figure .** Tolerance gauge prepared for printing in PrusaSlicer.
 
 ### Printing
 
@@ -194,7 +201,7 @@ The final artifact was printed on the Prusa Core One using the selected build pa
 
 **[INSERT IMAGE]**
 
-**Figure 12.** Tolerance gauge during the printing process.
+**Figure .** Tolerance gauge during the printing process.
 
 ## Mistakes and Design Changes
 
@@ -216,7 +223,7 @@ One change made during the process was scaling the model down. The original dime
 
 **[INSERT IMAGE OF FINAL PRINT]**
 
-**Figure 13.** Final printed tolerance gauge.
+**Figure .** Final printed tolerance gauge.
 
 The final artifact was a small square containing eight progressively smaller holes. The printed artifact was used to determine the smallest hole that the Prusa Core One could successfully reproduce.
 
@@ -224,7 +231,7 @@ The final artifact was a small square containing eight progressively smaller hol
 
 **[EMBED PRINT VIDEO HERE]**
 
-**Figure 14.** Video of the tolerance gauge being printed on the Prusa Core One.
+**Figure .** Video of the tolerance gauge being printed on the Prusa Core One.
 
 ## Results
 
@@ -245,7 +252,7 @@ Each hole was inspected to determine whether the printer successfully reproduced
 
 **[INSERT IMAGE OF FINAL HOLES]**
 
-**Figure 15.** Close-up view of the progressively smaller holes in the printed artifact.
+**Figure .** Close-up view of the progressively smaller holes in the printed artifact.
 
 ### Actual Result
 
@@ -285,7 +292,7 @@ The class design rules chart will be used to compare the measured result from th
 
 **[INSERT IMAGE OF CLASS FDM DESIGN RULES CHART]**
 
-**Figure 16.** Relevant FDM design rule from the class design rules chart.
+**Figure .** Relevant FDM design rule from the class design rules chart.
 
 [Explain whether the measured result matched, exceeded, or fell short of the class specification.]
 
