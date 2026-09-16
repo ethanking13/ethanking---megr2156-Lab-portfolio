@@ -1,8 +1,5 @@
-# Prusa Core One Tolerance Gauge Benchmark
+# Benchmark a Parameter
 
-**Name:** Ethan King  
-**Course:** [Course Name]  
-**Date:** [Date]
 
 ## Analyze — Parameter Selection
 
