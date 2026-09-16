@@ -3,7 +3,7 @@
 
 ## Analyze — Parameter Selection
 
-### Parameter Tested: Tolerance
+# Parameter Tested: Tolerance
 
 The parameter selected for this project was **dimensional tolerance**, specifically the ability of the Prusa Core One to produce small internal holes.
 
@@ -35,7 +35,7 @@ The purpose of using progressively smaller holes was to determine the smallest h
 
 ## Artifact Design
 
-### CAD Design
+# CAD Design
 
 The benchmark artifact was designed using **Creo Parametric**. The artifact consisted of a small square with multiple circular holes placed through the part. Each hole was progressively smaller than the previous hole.
 
