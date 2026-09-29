@@ -200,7 +200,7 @@ Supports were used to **support overhanging geometry**. The goal was to provide 
 
 After the slicer settings and orientation were finalized, the model was prepared for printing. The sliced file was sent to the 3D printer and the printing process was monitored to make sure the first layers adhered properly and that the snap-fit features were printing correctly.
 
-<a href="../../images/IMG_6617.mp4" target="_blank">HERE</a>
+<a href="../../images/IMG_6617.mp4" target="_blank">Video of Printing</a>
 
 **Figure 16:** Snap-fit during the 3D printing process.
 
