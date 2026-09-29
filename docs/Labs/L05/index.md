@@ -127,8 +127,6 @@ Finally, I assembled the two components using the Assembly feature in SolidWorks
 <img width="507" height="727" alt="Screenshot 2026-09-22 004705" src="https://github.com/user-attachments/assets/0b4a4800-b9da-4ef0-a399-8a6da275c4fb" />
 
 
-
-
 ## 6. Design Decisions and Engineered Allowances
 
 The snap-fit geometry was designed to allow the flexure to deflect during assembly and return toward its original position after passing the mating feature. The mating features were positioned to allow the two components to engage while preventing the parts from easily separating under the applied axial load.
@@ -150,63 +148,70 @@ For my snap-fit, I oriented the model flat on the build plate. This orientation 
 
 After completing the snap-fit design in CAD, I imported the STL file into the slicer to prepare it for 3D printing. I first positioned the part on the build plate and considered the orientation of the flexure, the amount of support material required, and the overall stability of the print. The part was laid flat on the build plate because this orientation provided a stable printing surface and positioned the flexure in a suitable direction for the bending forces it would experience during use.
 
-[Insert Image Here]
+<img width="552" height="382" alt="Screenshot 2026-09-28 210859" src="https://github.com/user-attachments/assets/6b9863d6-b235-4b31-a43f-df30a7a35a67" />
 
-**Figure X:** Snap-fit positioned on the build plate in the slicer.
+
+**Figure 10:** Snap-fit positioned on the build plate in the slicer.
 
 
 
 ### Support Selection
 
-I changed the default support setting to **[Organic / Paint-on / Snug]**. I selected this support system because **[explain your reason]**. The support was intended to provide enough support for the areas of the snap-fit that could not be printed reliably without it while avoiding unnecessary support material.
+I changed the default support setting to **Paint On**. I selected this support system because **I was most familiar with this method**. The support was intended to provide enough support for the areas of the snap-fit that could not be printed reliably without it while avoiding unnecessary support material.
 
-[Insert Image Here]
-
-**Figure X:** Support settings selected in the slicer.
+<img width="835" height="360" alt="Screenshot 2026-09-28 211050" src="https://github.com/user-attachments/assets/fe34c335-4b35-4105-8af9-e1571ad53d7a" />
 
 
+**Figure 11:** Support settings selected in the slicer.
 
 ### Build Orientation
 
 The snap-fit was oriented **flat on the build plate**. This orientation was selected because the flexure experiences bending when the snap-fit is installed and removed. Laying the part flat also provided a stable base during printing and allowed the important features of the snap-fit to be printed in a controlled orientation.
 
-[Insert Image Here]
+<img width="602" height="286" alt="Screenshot 2026-09-22 005732" src="https://github.com/user-attachments/assets/5e9a2be4-a6cf-4d9c-9329-7a39e283e6de" />
 
-**Figure X:** Final build orientation of the snap-fit.
 
+**Figure 12:** Final build orientation of the snap-fit.
 
 
 ### Slicer Settings
 
 The following slicer settings were used to prepare the snap-fit for printing:
 
-[Insert Image Here]
+<img width="500" height="985" alt="Screenshot 2026-09-22 005723" src="https://github.com/user-attachments/assets/2651c55d-fa20-4eae-bf66-b2938de45439" />
 
-**Figure X:** Slicer settings used for the final print.
+<img width="436" height="467" alt="Screenshot 2026-09-22 005727" src="https://github.com/user-attachments/assets/fd9f2d4d-df60-4066-8bc7-f0892db7d97c" />
+
+**Figure 13-14:** Slicer settings used for the final print.
 
 
 
 ### Supports
 
-Supports were used to **[support overhanging geometry / support the flexure / prevent deformation / no supports were needed]**. The goal was to provide enough support for the areas that required it without using excessive material. Limiting unnecessary supports also made post-processing easier and reduced the amount of material that needed to be removed after printing.
+Supports were used to **support overhanging geometry**. The goal was to provide enough support for the areas that required it without using excessive material. Limiting unnecessary supports also made post-processing easier and reduced the amount of material that needed to be removed after printing.
 
-[Insert Image Here]
+<img width="637" height="557" alt="Screenshot 2026-09-28 211031" src="https://github.com/user-attachments/assets/c614c28c-cdf7-4109-97b9-a94d64e1ab1f" />
 
-**Figure X:** Supports generated for the snap-fit.
 
+**Figure 15:** Supports generated for the snap-fit.
 
 
 ### Printing Process
 
 After the slicer settings and orientation were finalized, the model was prepared for printing. The sliced file was sent to the 3D printer and the printing process was monitored to make sure the first layers adhered properly and that the snap-fit features were printing correctly.
 
-[Insert Image Here]
 
-**Figure X:** Snap-fit during the 3D printing process.
 
-[Insert Image Here]
+**Figure 16:** Snap-fit during the 3D printing process.
 
-**Figure X:** Completed snap-fit after printing.
+
+Due to sitting in my car on a hot day the plastic deformed into a bent snap-fit, But it still works
+<img width="3024" height="4032" alt="IMG_6646" src="https://github.com/user-attachments/assets/d62e0d57-887e-4de9-be34-5aaab850ccb3" />
+
+<img width="3024" height="4032" alt="IMG_6647" src="https://github.com/user-attachments/assets/04eb21cd-2363-4557-a0e0-d60cc58fc451" />
+
+
+**Figure 17:** Completed snap-fit after printing.
 
 
 
