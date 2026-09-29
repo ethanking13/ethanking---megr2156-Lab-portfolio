@@ -135,12 +135,111 @@ The snap-fit geometry was designed to allow the flexure to deflect during assemb
 
 The primary flexure dimensions were kept at the calculated values of **0.10 in × 0.20 in × 2.32 in** throughout the design process.
 
-## 7. Overall CAD Design
-
-The final SolidWorks model consists of two components that interact to form the completed snap-fit assembly. The use of parametric dimensions and geometric constraints allows the design to be modified efficiently if changes are needed during physical testing.
-
-**Figure 6:** Overall snap-fit assembly in SolidWorks
-
 
 # 3D Printing and Testing
 
+Build orientation has a major effect on the strength of an FDM printed part because the strength of the part depends on how the printed layers are positioned relative to the applied forces. Research from Protolabs explains that FDM parts tend to be weaker when tension forces act perpendicular to the printed layers and stronger when the layers are aligned with the direction of the tension forces.
+
+For my snap-fit, I oriented the model flat on the build plate. This orientation places the flexure in a position where the printed layers can better support the bending and tension forces experienced when the snap-fit is flexed. Therefore, my chosen flat orientation aligns with the research recommendation to consider the direction of the applied bending and tension forces when selecting the build orientation.
+
+**Source:** [Protolabs – 3D-Printed Part Orientation for Strength](https://www.protolabs.com/resources/design-tips/3d-printed-part-orientation-for-strength/)
+
+## 3D Printing Process
+
+### Pre-Processor Layout
+
+After completing the snap-fit design in CAD, I imported the STL file into the slicer to prepare it for 3D printing. I first positioned the part on the build plate and considered the orientation of the flexure, the amount of support material required, and the overall stability of the print. The part was laid flat on the build plate because this orientation provided a stable printing surface and positioned the flexure in a suitable direction for the bending forces it would experience during use.
+
+[Insert Image Here]
+
+**Figure X:** Snap-fit positioned on the build plate in the slicer.
+
+
+
+### Support Selection
+
+I changed the default support setting to **[Organic / Paint-on / Snug]**. I selected this support system because **[explain your reason]**. The support was intended to provide enough support for the areas of the snap-fit that could not be printed reliably without it while avoiding unnecessary support material.
+
+[Insert Image Here]
+
+**Figure X:** Support settings selected in the slicer.
+
+
+
+### Build Orientation
+
+The snap-fit was oriented **flat on the build plate**. This orientation was selected because the flexure experiences bending when the snap-fit is installed and removed. Laying the part flat also provided a stable base during printing and allowed the important features of the snap-fit to be printed in a controlled orientation.
+
+[Insert Image Here]
+
+**Figure X:** Final build orientation of the snap-fit.
+
+
+
+### Slicer Settings
+
+The following slicer settings were used to prepare the snap-fit for printing:
+
+[Insert Image Here]
+
+**Figure X:** Slicer settings used for the final print.
+
+
+
+### Supports
+
+Supports were used to **[support overhanging geometry / support the flexure / prevent deformation / no supports were needed]**. The goal was to provide enough support for the areas that required it without using excessive material. Limiting unnecessary supports also made post-processing easier and reduced the amount of material that needed to be removed after printing.
+
+[Insert Image Here]
+
+**Figure X:** Supports generated for the snap-fit.
+
+
+
+### Printing Process
+
+After the slicer settings and orientation were finalized, the model was prepared for printing. The sliced file was sent to the 3D printer and the printing process was monitored to make sure the first layers adhered properly and that the snap-fit features were printing correctly.
+
+[Insert Image Here]
+
+**Figure X:** Snap-fit during the 3D printing process.
+
+[Insert Image Here]
+
+**Figure X:** Completed snap-fit after printing.
+
+
+
+### Mistakes and Design Changes
+
+During the printing process, I encountered **[describe your mistake]**. The issue was caused by **[cause]**. To correct the problem, I **[describe what you changed]**. The change resulted in **[describe the result]**.
+
+This process showed the importance of checking the CAD design, build orientation, support settings, and slicer settings before starting the final print. Making adjustments before printing can help prevent wasted material and printing time.
+
+
+
+### Lessons Learned
+
+This project helped me understand how the design of a part and the 3D printing process are connected. I learned that creating a successful snap-fit requires more than simply designing the correct dimensions in CAD. The orientation of the part on the build plate can affect the strength of the flexure, especially because FDM parts are built layer by layer.
+
+I also learned that support settings need to be selected based on the geometry of the part rather than simply using the default settings. The amount and location of supports can affect print quality, material usage, and the amount of post-processing required.
+
+Another important lesson was the importance of allowing for manufacturing tolerances. The dimensions in the CAD model represent the intended design, but the final printed part can have small dimensional differences because of the 3D printing process. Designing the snap-fit with an appropriate clearance allows the interactive features to function properly.
+
+Overall, the project showed me how measurements, CAD parameters, engineering decisions, slicer settings, build orientation, and the physical printing process all work together to produce a functional part.
+
+
+
+### Resources
+
+- Protolabs – [3D-Printed Part Orientation for Strength](https://www.protolabs.com/resources/design-tips/3d-printed-part-orientation-for-strength/)
+- Creo Parametric – Solidworks
+- [Insert 3D printer model]
+- [Insert slicer/software]
+- [Insert filament/material]
+
+---
+
+### Project Time
+
+I spent about 4 hours on this assignment, Most of the time came from the modeling process because I worked on this over a few days because I was very confident in my design.
