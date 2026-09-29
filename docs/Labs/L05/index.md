@@ -237,11 +237,8 @@ Overall, the project showed me how measurements, CAD parameters, engineering dec
 
 - Protolabs – [3D-Printed Part Orientation for Strength](https://www.protolabs.com/resources/design-tips/3d-printed-part-orientation-for-strength/)
 - Creo Parametric – Solidworks
-- <a href="../../images/Part2FINALFINALpritnt.3mf" target="_blank">HERE</a>
-- [Insert slicer/software]
-- [Insert filament/material]
+- <a href="../../images/Part2FINALFINALpritnt.3mf" target="_blank">Prusa Model</a>
 
----
 
 ### Project Time
 
