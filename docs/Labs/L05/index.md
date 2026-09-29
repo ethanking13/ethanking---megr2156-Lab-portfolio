@@ -200,7 +200,7 @@ Supports were used to **support overhanging geometry**. The goal was to provide 
 
 After the slicer settings and orientation were finalized, the model was prepared for printing. The sliced file was sent to the 3D printer and the printing process was monitored to make sure the first layers adhered properly and that the snap-fit features were printing correctly.
 
-
+<a href="../../images/IMG_6617.mp4" target="_blank">HERE</a>
 
 **Figure 16:** Snap-fit during the 3D printing process.
 
@@ -217,9 +217,7 @@ Due to sitting in my car on a hot day the plastic deformed into a bent snap-fit,
 
 ### Mistakes and Design Changes
 
-During the printing process, I encountered **[describe your mistake]**. The issue was caused by **[cause]**. To correct the problem, I **[describe what you changed]**. The change resulted in **[describe the result]**.
-
-This process showed the importance of checking the CAD design, build orientation, support settings, and slicer settings before starting the final print. Making adjustments before printing can help prevent wasted material and printing time.
+I encountered no mistakes everything worked perfectly.
 
 
 
@@ -239,7 +237,7 @@ Overall, the project showed me how measurements, CAD parameters, engineering dec
 
 - Protolabs – [3D-Printed Part Orientation for Strength](https://www.protolabs.com/resources/design-tips/3d-printed-part-orientation-for-strength/)
 - Creo Parametric – Solidworks
-- [Insert 3D printer model]
+- <a href="../../images/Part2FINALFINALpritnt.3mf" target="_blank">HERE</a>
 - [Insert slicer/software]
 - [Insert filament/material]
 
