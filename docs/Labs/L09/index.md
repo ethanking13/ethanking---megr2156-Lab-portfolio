@@ -1,13 +1,24 @@
-# A9 – Pulleys
+# A9 – Laser Cutter
 
-## Objective
+### Team Members: Ethan King, Andrew Yang, Nathaneal Zimmerman
 
+## Step 1: Measure the Material
+### Thickness Measurements
 
-## Analyze
+- **Thickness 1:** 3.08 mm
+- **Thickness 2:** 2.89 mm
+- **Thickness 3:** 2.91 mm
 
+**Average Thickness:**
 
-## Decide
+\[
+T_{\text{avg}} = \frac{T_1 + T_2 + T_3}{3}
+\]
 
+\[
+T_{\text{avg}} = \frac{3.08 + 2.89 + 2.91}{3}
+\]
 
-## Communicate
-
+\[
+\boxed{T_{\text{avg}} = 2.96 \text{ mm}}
+\]
