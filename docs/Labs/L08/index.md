@@ -25,3 +25,10 @@ The ideal users are children between the ages of 3 and 5 who enjoy playing with 
 My approach is to design the toy screwdriver using CAD software and then manufacture it using a 3D printer. I plan to create an oversized, blocky design that is easy for young children to grip. I also want to use a material that is strong enough to withstand regular play while being softer and more suitable for a children's toy.
 
 # Design
+For my model I thought of something basic like a flat head its kid friendly and dosent really have any sharp edges.
+<img width="745" height="360" alt="Screenshot 2026-11-17 194611" src="https://github.com/user-attachments/assets/17ad382b-30e3-439c-911a-2ac243815ec2" />
+<img width="1162" height="532" alt="Screenshot 2026-11-17 194509" src="https://github.com/user-attachments/assets/57bae83c-1a68-4feb-be71-fd1daf782bbd" />
+<img width="563" height="542" alt="Screenshot 2026-11-17 194544" src="https://github.com/user-attachments/assets/d5e42dd2-30b8-4ddb-a0bf-125c4ebe2da7" />
+<img width="683" height="686" alt="Screenshot 2026-11-17 194553" src="https://github.com/user-attachments/assets/e0d6a55b-6fad-4388-aba2-8c0ecf106c11" />
+
+# Video the process of the 3D Print
